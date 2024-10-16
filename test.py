@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/api/hello',methods=['GET'])
 def hello_word():
-    return "Hello world"
+    return ""
 
 @app.route('/api/hello2',methods=['POST'])
 def hello_return_name():
